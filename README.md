@@ -8,6 +8,11 @@ This repository contains various scripts to generate test media.
 * ffmpeg - has been tested with ffmpeg 3.2.4. YMMV
 * python 2.7
 
+## generate_test_video_variants.py
+
+This script generates a number of test videos with varying frame rates
+and channel layouts. All the output ends up in the `output` directory.
+
 ## generate_multichannel_video.py
 
 This script generates an mp4 video at 25 fps with a rolling timecode
